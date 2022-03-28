@@ -15,15 +15,17 @@ from covid19br.spiders.spider_pr import SpiderPR
 from covid19br.spiders.spider_ro import SpiderRO
 from covid19br.spiders.spider_sp import SpiderSP
 from covid19br.spiders.spider_to import SpiderTO
+from covid19br.spiders.spider_pb import SpiderPB
 
 # Todo -> Automatically retrieve spiders that extend the Base Class
 AVAILABLE_SPIDERS = [
-    SpiderBA,
-    SpiderCE,
-    SpiderPR,
-    SpiderRO,
-    SpiderSP,
-    SpiderTO,
+    # SpiderBA,
+    # SpiderCE,
+    # SpiderPR,
+    # SpiderRO,
+    # SpiderSP,
+    # SpiderTO,
+    SpiderPB
 ]
 
 
